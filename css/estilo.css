@@ -1,0 +1,101 @@
+header{
+    background-color: rgb(57, 38, 78);
+    margin: auto;
+}
+
+header h1{
+    text-align: center;
+    color: rgb(255, 240, 234);
+    padding: 10px;
+}
+
+#menu{
+    background-color: rgb(236, 255, 149);
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#menu li{
+    float: left;
+}
+
+#menu li a{
+    display: block;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(78, 46, 3);
+    transition: 0.05s;
+
+}
+
+#menu li a :hover{
+    transition:0.5s;
+    background-color: rgb(62, 156, 117);
+    color: rgb(188, 241, 241);
+}
+
+body{
+    background-color: rgb(21, 22, 43);
+}
+
+article{
+    background-color: rgb(240, 237, 248);
+    text-align: justify;
+    margin: auto;
+}
+
+ol{
+    padding: 0px;
+    margin: 35px;
+}
+
+ol li span{
+    float: right;
+
+}
+
+ol li{
+    border-bottom: 1px solid ;
+}
+
+img{
+    width: 100%;
+}
+
+/* subtitulo e paragrafo, alinhamento*/
+
+h2, p{
+    margin-left: 20px;
+    margin-right: 35px;
+}
+/* pra tirar o risco do leia mais (botao) */
+section{
+    text-align: center;
+    padding: 10px;
+}
+/* (botao) */
+#btt{
+    text-decoration: none;
+    background-color: rgb(216, 209, 224);
+    color: rgb(46, 25, 2);
+    border-radius: 5px;
+    padding: 7px;
+    transition: 0.05s;
+
+}
+/* botao */
+#btt:hover{
+    transition: 0.5s;
+    background-color: rgb(206, 181, 152);
+    
+}
+/* cabeçalho */
+footer{
+    text-align: center;
+    background-color: rgb(57, 38, 78);
+    color: rgb(248, 243, 253);
+    margin: auto;
+}
